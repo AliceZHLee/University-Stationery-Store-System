@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".HomeActivity">
+
+<!--    <Button-->
+<!--        android:id="@+id/viewDisbursementBtn"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:background="#ffc3dd"-->
+<!--        android:text="DISBURSMENT" />-->
+    <Button
+        android:id="@+id/deleBtn"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#40c3dd"
+        android:text="@string/delegate"/>
+
+    <Button
+        android:id="@+id/assiBtn"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#559670"
+        android:text="@string/assignRep"/>
+</LinearLayout>

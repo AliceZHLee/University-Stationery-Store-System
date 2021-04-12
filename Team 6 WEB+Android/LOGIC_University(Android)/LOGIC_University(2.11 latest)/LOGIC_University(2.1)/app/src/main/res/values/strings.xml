@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">LU STATIONERY STORE</string>
+    <string name="prompt_username">username</string>
+    <string name="prompt_password">Password</string>
+    <string name="LOGIN">LOGIN</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="delegate">DELEGATE AUTHORITY</string>
+    <string name="reqApproval">REQUISITION</string>
+    <string name="assignRep">ASSIGN REPRESENTATIVE</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="retrieval">RETRIEVAL</string>
+    <string name="disbursement">DISBURSEMENT</string>
+    <string name="monthcheck">MONTHLY CHECK</string>
+    <string name="allocateAuthority">Allocate Temporary Authority:</string>
+    <string name="storeCards">Store Cards</string>
+    <string name="itemCodes">Item Code</string>
+    <string name="des">Description</string>
+    <string name="bin">Bin</string>
+    <string name="rQty">Recorded Qty</string>
+    <string name="disList">Disbursement List</string>
+    <string name="depName">Department</string>
+    <string name="date">Date</string>
+    <string name="details">Details</string>
+    <string name="current_Rep">Current Rep:</string>
+    <string name="update">Save</string>
+    <string name="reassign">Change to:</string>
+    <string name="requiList">Requisition List</string>
+    <string name="reqId">Request ID</string>
+    <string name="emp_name">Employee Name</string>
+    <string name="submit_date">Submit Date</string>
+    <string name="status">Status</string>
+    <string name="delegate2">Delegate</string>
+    <string name="select">Select Employee</string>
+
+
+    <string-array name="empName">
+        <item>Tom Chen</item>
+        <item>Jerry Lim</item>
+        <item>Lucy Clork</item>
+        <item>Alice Lee</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

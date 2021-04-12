@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".dep_assignRepresentative">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/currRep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/current_Rep"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/currRepName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/changeToRep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reassign"
+            android:textSize="30sp" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:hint="select an employee"
+            android:scrollbarSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="166dp"
+        android:layout_height="142dp"
+        android:layout_gravity="center"
+        android:background="#009bf4"
+        android:text="@string/update"
+        android:id="@+id/save_btn"
+        android:textSize="35sp" />
+
+</LinearLayout>

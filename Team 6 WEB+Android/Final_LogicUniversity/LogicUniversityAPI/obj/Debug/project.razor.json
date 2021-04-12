@@ -1,0 +1,19 @@
+{
+  "FilePath": "c:\\Users\\LI ZHENGYI\\Desktop\\Team 6 Project Submission\\Team 6 WEB+Android\\Final_LogicUniversity\\LogicUniversityAPI\\LogicUniversityAPI.csproj",
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 703
+  },
+  "RootNamespace": null,
+  "Documents": [],
+  "SerializationFormat": "0.2"
+}

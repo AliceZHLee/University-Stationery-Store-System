@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Department"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:id="@+id/departmentName"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="disbursmentID"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:id="@+id/disbursementID"
+        android:layout_weight="1"
+        />
+
+<!--    <Button-->
+<!--        android:id="@+id/ViewBtn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="View"-->
+<!--        android:textColor="#a9a9a9"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:textSize="15sp"-->
+<!--        android:layout_weight="1"-->
+<!--        />-->
+</LinearLayout>
